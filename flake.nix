@@ -66,7 +66,7 @@
             [(sleep_script {pkgs = pkgs_arm64;})]
             ++ admin_shell {
               inherit pkgs;
-              system = "arm64-linux";
+              system = "aarch64-linux";
             };
           pathsToLink = ["/bin" "/etc" "/var"];
         };
