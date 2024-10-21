@@ -25,7 +25,7 @@
           dockerTools.binSh
           dockerTools.caCertificates
           htop
-          inputs.ali-neovim.packages.${system}.nvim
+          # inputs.ali-neovim.packages.${system}.nvim
           netcat-gnu
           rconc
           rdiff-backup
